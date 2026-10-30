@@ -1,9 +1,17 @@
 package com.produto.api.model;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.Table;
+
+@Entity
+
 public class Produto{
     private Long id;
     private String nome;
     private String categoria;
     private Double preco;
+
+
 
     public Produto(){
     }
